@@ -1,5 +1,5 @@
 # 🧠 Streamlit Tweet Sentiment Analysis
-
+Deployment page: https://sentimentanalysis-gpkqruzwgtkcagm5uyxtf-lae-advdamin.streamlit.app/
 Aplikasi ini memungkinkan Anda menganalisis sentimen dari sebuah tweet menggunakan model `cardiffnlp/twitter-roberta-base-sentiment`.
 
 ## 📦 Fitur
