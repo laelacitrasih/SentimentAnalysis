@@ -1,8 +1,12 @@
 import streamlit as st
 from predictor import load_model_and_tokenizer, predict_sentiment
 
-st.set_page_config(page_title="Tweet Sentiment Analysis", layout="centered")
-
+# st.set_page_config(page_title="Tweet Sentiment Analysis", layout="centered")
+st.set_page_config(
+    page_title="Tweet Sentiment Analysis",
+    layout="wide",
+    initial_sidebar_state="expanded"  # <- ini membuat sidebar terbuka secara default
+)
 # === Session state default menu ===
 if "page" not in st.session_state:
     st.session_state.page = "Home"
